@@ -279,6 +279,19 @@
 
       <section class="page__content" itemprop="text">
         
+	
+	  <script src="/assets/unity/0.0.1/TemplateData/UnityProgress.js"></script>  
+<script src="/assets/unity/0.0.1/Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "/assets/unity/0.0.1/Build/WebBuild.json",{onProgress: UnityProgress});  
+</script>
+<div class="webgl-content">
+  <div id="gameContainer" style="width: 960px; height: 600px"></div>
+</div>
+<span onclick="gameInstance.SetFullscreen(1)">Click me for Fullscreen</span>
+
+	
+
         <p>First public release.</p>
 
 
