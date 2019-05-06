@@ -1,3 +1,11 @@
 ---
-layout: home
+layout: splash
+header:
+  overlay_color: "#5e616c"
+excerpt: >
+  Build your own army of golems. Make them do your bidding. Automate your game.<br />
+  <small><a href="Version010">Check out the current version</a></small>
 ---
+{% for post in site.posts limit:3 %}
+    {% include archive-single.html %}
+{% endfor %}

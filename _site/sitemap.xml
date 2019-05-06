@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/general/Version001/</loc>
+<loc>http://localhost:4000/Golem/golem/Version001/</loc>
 <lastmod>2019-03-02T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/Golem/Version010/</loc>
+<lastmod>2019-05-03T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Golem/</loc>
 </url>
 </urlset>
